@@ -1,0 +1,55 @@
+.whatweoffer {
+    padding: 56px 120px;
+}
+
+.whatweoffer .heading {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+    margin-bottom: 64px;
+    text-align: center;
+}
+
+.whatweoffer .cards_row {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.servicecard {
+    border-radius: 12px;
+    width: 380px;
+    height: 398px;
+    position: relative;
+    overflow: hidden;
+}
+
+.servicecard .img_container {
+    height: 100%;
+    width: 100%;
+}
+
+.servicecard .text_content {
+    position: absolute;
+    bottom: 0;
+    padding: 16px 32px 28px;
+    background: linear-gradient(180deg, rgba(196, 196, 196, 0) -14.34%, #C4C4C4 116.43%);
+    backdrop-filter: blur(32.5px);
+    height: 143px;
+}
+
+.servicecard .title {
+    color: var(--lightblue-1);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+}
+
+.servicecard .desc {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-top: 12px;
+}

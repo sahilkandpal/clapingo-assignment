@@ -1,0 +1,78 @@
+.howitworks {
+    padding: 56px 120px;
+}
+
+.howitworks .grid_content {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 31px;
+    grid-auto-flow: column;
+    justify-items: center;
+}
+
+.howitworks .heading {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 52px;
+    margin-bottom: 40px;
+}
+
+.howitworks .stepcard {
+    width: 379px;
+    height: 175px;
+    padding: 32px 24px;
+    background: #FFFFFF;
+    box-shadow: 26px 26px 23px rgba(204, 210, 212, 0.36);
+    border-radius: 12px;
+}
+
+.howitworks .title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    color: var(--black-1);
+    margin-bottom: 16px;
+}
+
+.howitworks .desc {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: var(--grey-2);
+}
+
+.howitworks .img_container {
+    width: 235px;
+    grid-row: 1 / 3;
+    position: relative;
+}
+
+.howitworks .img_container img {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.howitworks .img_container .circle {
+    width: 175px;
+    height: 175px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #139980;
+    box-shadow: 0px 4px 63px 51px rgba(19, 153, 128, 0.43);
+}
+
+.howitworks .img_container .smoke {
+    width: 100%;
+    height: 175px;
+    width: 268px;
+    position: absolute;
+    bottom: -25px;
+    left: -16px;
+    background: linear-gradient(180deg, rgba(251, 251, 253, 0) -50%, #FBFBFD 74.21%);
+    filter: blur(10px);
+    z-index: 2;;
+}

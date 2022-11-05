@@ -1,0 +1,51 @@
+.loginpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 90px);
+    background-color: rgb(249 251 247/1);;
+}
+
+.login_form {
+    padding: 50px 30px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 4px;
+    min-width: 400px;
+    background-color: #ffffff;
+}
+
+.logo_container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form_group{
+    display: flex;
+    flex-direction: column;
+}
+
+.form_group label {
+    color: var(--black-1);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.form_group input {
+    border: 1px solid lightgrey;
+    padding: 12px 14px;
+    border-radius: 10px;
+    outline-color: var(--green-1);
+
+}
+
+.login_form .login_btn  {
+    padding: 12px 40px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.login_form .error_msg {
+    font-size: 14px;
+    color: red;
+    min-height: 24px;
+}

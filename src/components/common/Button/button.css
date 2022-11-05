@@ -1,0 +1,37 @@
+.clapingo_btn{
+    border-radius: 80px;
+}
+
+.clapingo_btn.primary.contained {
+    background: var(--orange-1);
+    color: #ffffff;
+    border: none;
+}
+
+.clapingo_btn.primary.outlined {
+    background: #ffffff;
+    color: var(--orange-1);
+    border: 2px solid var(--orange-1);
+}
+
+.clapingo_btn.secondary.contained {
+    background: var(--green-1);
+    color: #ffffff;
+    border: none;
+}
+
+.clapingo_btn.secondary.outlined {
+    background: #ffffff;
+    color: var(--green-1);
+    border: 2px solid var(--green-1);
+}
+
+.clapingo_btn.md{
+    padding: 15px 24px;
+    font-size: 16px;
+}
+
+.clapingo_btn.lg{
+    padding: 15px 32px;
+    font-size: 18px;
+}
